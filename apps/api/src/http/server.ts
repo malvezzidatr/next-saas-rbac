@@ -5,7 +5,7 @@ import {
   validatorCompiler,
   ZodTypeProvider,
 } from 'fastify-type-provider-zod'
-import { createAccount } from './routes/auth/create-accout'
+import { createAccount } from './routes/auth/create-account'
 
 const app = fastify().withTypeProvider<ZodTypeProvider>()
 
